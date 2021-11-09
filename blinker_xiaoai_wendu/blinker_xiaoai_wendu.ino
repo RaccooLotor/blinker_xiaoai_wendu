@@ -5,8 +5,8 @@
 #include <DHT.h>
  
 char auth[] = "9b9fa302b7cc";    //设备key
-char ssid[] = "fangtaiji";         //wifi ssid
-char pswd[] = "ftj12345678";     //wifi 密码
+char ssid[] = "wifi_name";         //wifi ssid
+char pswd[] = "wifi_passwd";     //wifi 密码
  
 BlinkerNumber HUMI("humi");    //定义湿度数据键名
 BlinkerNumber TEMP("temp");    //定义温度数据键名
